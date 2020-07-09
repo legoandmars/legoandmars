@@ -1,4 +1,4 @@
-![Important](https://i.imgur.com/REWmoI9.jpg)
+![Important](https://i.imgur.com/exD2sVq.png)
 
 <!--
 **legoandmars/legoandmars** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
