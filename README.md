@@ -1,3 +1,4 @@
+![Metrics](https://github.com/legoandmars/legoandmars/blob/master/github-metrics.svg)
 <!--
 **legoandmars/legoandmars** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
