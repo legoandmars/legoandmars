@@ -1,7 +1,7 @@
 name: Metrics
 on:
-  # Schedule updates (each hour)
-  schedule: [{cron: "* * * * *"}]
+  # Schedule updates (every 5 minutes)
+  schedule: [{cron: "5 * * * *"}]
   # Lines below let you run workflow manually and on each commit (optional)
   workflow_dispatch:
 jobs:
@@ -21,7 +21,7 @@ jobs:
           plugin_nightscout: yes
           plugin_nightscout_url: ${{ secrets.NIGHTSCOUT_URL }} # Use the github actions "NIGHTSCOUT_URL" secret as your nightscout site
           plugin_nightscout_datapoints: 12                     # Use the latest 12 blood sugar datapoints to create a graph
-          config_padding: 0%, 5% # 0% width padding, 5% height padding:  
+          config_padding: 0%, 15% # 0% width padding, 5% height padding:  
 
       - name: 💉 Nightscout Plugin
         uses: legoandmars/metrics@master
