@@ -3,7 +3,6 @@ on:
   # Schedule updates (each hour)
   schedule: [{cron: "* * * * *"}]
   # Lines below let you run workflow manually and on each commit (optional)
-  push: {branches: ["master", "main"]}
   workflow_dispatch:
 jobs:
   github-metrics:
@@ -19,6 +18,7 @@ jobs:
           base: header, repositories
           plugin_lines: yes
           plugins_errors_fatal: ${{ github.repository == 'legoandmars/legoandmars' }}
+          use_prebuilt_image: master # ⚠️ DO NOT USE THIS OPTION, this is for pulling pre-built master image to make workflow faster 
 
       - name: 💉 Nightscout Plugin
         uses: legoandmars/metrics@master
