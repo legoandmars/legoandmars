@@ -31,4 +31,4 @@ jobs:
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           plugin_nightscout: yes
           plugin_nightscout_url: ${{ secrets.NIGHTSCOUT_URL }} # Use the github actions "NIGHTSCOUT_URL" secret as your nightscout site
-          plugin_nightscout_datapoints: 12                     # Use the latest 12 blood sugar datapoints to create a graph
+          plugin_nightscout_datapoints: 10                     # Use the latest 12 blood sugar datapoints to create a graph
