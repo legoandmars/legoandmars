@@ -1,7 +1,7 @@
 name: New Metrics
 on:
   # Schedule updates (every 5 minutes)
-  schedule: [{cron: "* * * * *"}]
+  schedule: [{cron: "*/5 * * * *"}]
   # Lines below let you run workflow manually and on each commit (optional)
   workflow_dispatch:
 jobs:
