@@ -22,7 +22,7 @@ jobs:
         uses: legoandmars/metrics@master
         with:
           filename: metrics.plugin.nightscout.svg
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: NOT_NEEDED
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           plugin_nightscout: yes
           plugin_nightscout_url: ${{ secrets.NIGHTSCOUT_URL }} # Use the github actions "NIGHTSCOUT_URL" secret as your nightscout site
