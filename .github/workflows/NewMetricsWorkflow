@@ -1,0 +1,34 @@
+name: New Metrics
+on:
+  # Schedule updates (every 5 minutes)
+  schedule: [{cron: "* * * * *"}]
+  # Lines below let you run workflow manually and on each commit (optional)
+  workflow_dispatch:
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: 📗 Classic template
+        uses: legoandmars/metrics@master
+        with:
+          filename: metrics.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          base: header, repositories
+          plugin_languages: yes
+          plugin_languages_ignored: html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell, gnuplot, batchfile
+          plugin_nightscout: yes
+          plugin_nightscout_url: ${{ secrets.NIGHTSCOUT_URL }} # Use the github actions "NIGHTSCOUT_URL" secret as your nightscout site
+          plugin_nightscout_datapoints: 10                     # Use the latest 12 blood sugar datapoints to create a graph
+          config_padding: 0%, 50% # 0% width padding, 5% height padding:  
+
+      - name: 💉 Nightscout Plugin
+        uses: legoandmars/metrics@master
+        with:
+          filename: metrics.plugin.nightscout.svg
+          token: NOT_NEEDED
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          plugin_nightscout: yes
+          plugin_nightscout_url: ${{ secrets.NIGHTSCOUT_URL }} # Use the github actions "NIGHTSCOUT_URL" secret as your nightscout site
+          plugin_nightscout_datapoints: 12                     # Use the latest 12 blood sugar datapoints to create a graph
