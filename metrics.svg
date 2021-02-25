@@ -908,32 +908,8 @@
                     <div class="field" style="width: 200%;">
                       
                           <div class="entry" style="margin-top: auto;">
-                      <span class="value" style="font-size: 125%;">293</span>
-                      <div class="bar" style="height: 75px; width: 50%; background-color: #216e39"></div>
-                      <div style="font-size: 125%;">
-                        05:16
-                      </div>
-                      </div>
-                  
-                          <div class="entry" style="margin-top: auto;">
-                      <span class="value" style="font-size: 125%;">293</span>
-                      <div class="bar" style="height: 75px; width: 50%; background-color: #216e39"></div>
-                      <div style="font-size: 125%;">
-                        05:21
-                      </div>
-                      </div>
-                  
-                          <div class="entry" style="margin-top: auto;">
-                      <span class="value" style="font-size: 125%;">289</span>
-                      <div class="bar" style="height: 73.97610921501706px; width: 50%; background-color: #216e39"></div>
-                      <div style="font-size: 125%;">
-                        05:26
-                      </div>
-                      </div>
-                  
-                          <div class="entry" style="margin-top: auto;">
                       <span class="value" style="font-size: 125%;">286</span>
-                      <div class="bar" style="height: 73.20819112627986px; width: 50%; background-color: #216e39"></div>
+                      <div class="bar" style="height: 75px; width: 50%; background-color: #216e39"></div>
                       <div style="font-size: 125%;">
                         05:31
                       </div>
@@ -941,7 +917,7 @@
                   
                           <div class="entry" style="margin-top: auto;">
                       <span class="value" style="font-size: 125%;">282</span>
-                      <div class="bar" style="height: 72.18430034129693px; width: 50%; background-color: #216e39"></div>
+                      <div class="bar" style="height: 73.95104895104895px; width: 50%; background-color: #216e39"></div>
                       <div style="font-size: 125%;">
                         05:36
                       </div>
@@ -949,7 +925,7 @@
                   
                           <div class="entry" style="margin-top: auto;">
                       <span class="value" style="font-size: 125%;">238</span>
-                      <div class="bar" style="height: 60.92150170648464px; width: 50%; background-color: #30a14e"></div>
+                      <div class="bar" style="height: 62.41258741258741px; width: 50%; background-color: #30a14e"></div>
                       <div style="font-size: 125%;">
                         05:41
                       </div>
@@ -957,7 +933,7 @@
                   
                           <div class="entry" style="margin-top: auto;">
                       <span class="value" style="font-size: 125%;">223</span>
-                      <div class="bar" style="height: 57.081911262798634px; width: 50%; background-color: #30a14e"></div>
+                      <div class="bar" style="height: 58.47902097902097px; width: 50%; background-color: #30a14e"></div>
                       <div style="font-size: 125%;">
                         05:46
                       </div>
@@ -965,7 +941,7 @@
                   
                           <div class="entry" style="margin-top: auto;">
                       <span class="value" style="font-size: 125%;">152</span>
-                      <div class="bar" style="height: 38.907849829351534px; width: 50%; background-color: #40c463"></div>
+                      <div class="bar" style="height: 39.86013986013986px; width: 50%; background-color: #40c463"></div>
                       <div style="font-size: 125%;">
                         06:31
                       </div>
@@ -973,7 +949,7 @@
                   
                           <div class="entry" style="margin-top: auto;">
                       <span class="value" style="font-size: 125%;">150</span>
-                      <div class="bar" style="height: 38.395904436860064px; width: 50%; background-color: #40c463"></div>
+                      <div class="bar" style="height: 39.33566433566433px; width: 50%; background-color: #40c463"></div>
                       <div style="font-size: 125%;">
                         06:36
                       </div>
@@ -981,9 +957,33 @@
                   
                           <div class="entry" style="margin-top: auto;">
                       <span class="value" style="font-size: 125%;">148</span>
-                      <div class="bar" style="height: 37.883959044368595px; width: 50%; background-color: #40c463"></div>
+                      <div class="bar" style="height: 38.81118881118881px; width: 50%; background-color: #40c463"></div>
                       <div style="font-size: 125%;">
                         06:41
+                      </div>
+                      </div>
+                  
+                          <div class="entry" style="margin-top: auto;">
+                      <span class="value" style="font-size: 125%;">148</span>
+                      <div class="bar" style="height: 38.81118881118881px; width: 50%; background-color: #40c463"></div>
+                      <div style="font-size: 125%;">
+                        06:46
+                      </div>
+                      </div>
+                  
+                          <div class="entry" style="margin-top: auto;">
+                      <span class="value" style="font-size: 125%;">149</span>
+                      <div class="bar" style="height: 39.07342657342657px; width: 50%; background-color: #40c463"></div>
+                      <div style="font-size: 125%;">
+                        06:51
+                      </div>
+                      </div>
+                  
+                          <div class="entry" style="margin-top: auto;">
+                      <span class="value" style="font-size: 125%;">148</span>
+                      <div class="bar" style="height: 38.81118881118881px; width: 50%; background-color: #40c463"></div>
+                      <div style="font-size: 125%;">
+                        06:56
                       </div>
                       </div>
                         
